@@ -3,9 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	c := make(chan int, 1)
-	c <- 1
-	close(c)
-	close(c)
-	fmt.Println("OK")
+	d := 9.0
+	const f int = 2
+	fmt.Println(d / f)
 }
