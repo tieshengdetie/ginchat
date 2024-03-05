@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-const MQURL = "amqp://tiesheng:123456@192.168.0.201:5672/"
+const MQURL = "amqp://admin:123456@192.168.0.201:5677/"
 
 func main() {
 	example3()

@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	rabbitmq1, err1 := rabbitmq.NewRabbitMqSubscription("exchange.t1", "amqp://tiesheng:123456@192.168.0.201:5672/")
+	rabbitmq1, err1 := rabbitmq.NewRabbitMqSubscription("exchange.t1", "amqp://admin:123456@192.168.0.201:5677/")
 	if err1 != nil {
 		log.Println(err1)
 	}
