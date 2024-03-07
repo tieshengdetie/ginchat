@@ -12,6 +12,7 @@ require (
 	github.com/gorilla/websocket v1.5.0
 	github.com/spf13/cast v1.5.0
 	github.com/spf13/viper v1.15.0
+    github.com/streadway/amqp v1.1.0
 	github.com/swaggo/files v1.0.1
 	github.com/swaggo/gin-swagger v1.6.0
 	github.com/swaggo/swag v1.16.1
@@ -19,6 +20,7 @@ require (
 	gopkg.in/fatih/set.v0 v0.2.1
 	gorm.io/driver/mysql v1.5.4
 	gorm.io/gorm v1.25.7
+
 )
 
 require (
